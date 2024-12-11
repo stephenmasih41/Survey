@@ -1,0 +1,125 @@
+body{
+  color: rgba(255, 255, 255, 0.868);
+}
+#title{
+  text-align: center;
+  font-size: 40px;
+  color: grey;
+}
+
+#description{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: orchid;
+}
+
+form{
+  width: 500px;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 10px;
+}
+label,input,button{
+  display: block;
+}
+/* Basic Information */
+.information label, .information input{
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.information input{
+  width: 99%;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.537);
+  border: none;
+  height: 30px;
+}
+
+input::placeholder{
+  color: whitesmoke;
+}
+
+
+/* Role */
+.role{
+  margin: 10px 0;
+}
+select{
+  margin-top: 10px;
+}
+
+.role label{
+  font-size: large;
+}
+
+.role select{
+  width: 99%;
+  height: 30px;
+}
+
+/* Major */
+.major{
+  margin: 10px 0;
+}
+
+#question{
+  font-size: large;
+}
+
+.major input{
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+.major label{
+  font-size: 18px;
+}
+
+/* Courses */
+
+.courses{
+  margin: 10px 0;
+}
+
+#course-label{
+  font-size: large;
+}
+
+.courses input{
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+.courses label{
+  font-size: 18px;
+}
+
+/* Text Area */
+textarea{
+  width: 99%;
+}
+
+.text label{
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+textarea::placeholder{
+  padding: 10px;
+}
+
+/* Submit Button */
+button{
+  width: 99%;
+  margin-top: 10px;
+  height: auto;
+  background-color: rgba(27, 27, 50, 0.8);
+  color: floralwhite;
+  font-weight: 700px;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
