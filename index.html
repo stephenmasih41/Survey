@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Study Survey</h1>
+  <p id="description">Thank you for taking the time to help me learn Computer Science</p>
+  <form action="" id="survey-form">
+    <label for="name-label">Name</label>
+    <input type="text" id="name-label" placeholder="Enter your name">
+    <label for="name-label">Email</label>
+    <input type="email" id="email-label" placeholder="Enter your Email">
+    <label for="number-label">Age(optional)</label>
+    <input type="number" id="number-label" min="18" max="60" placeholder="Age">
+    <!-- Asking the role -->
+    <label for="">What option best describes your current role?</label>
+    <select name="" id="dropdown" >
+      <option value="Student">Student</option>
+      <option value="Full-Time Developer">Full-Time Developer</option>
+    </select>
+    <!-- Best Field in the Computer Science -->
+      <label>Your Major in the Computer Science:</label>
+      <label><input type="radio" name="field" value="Frontend">Frontend</label>
+      <label><input type="radio" name="field"value="Backend">Backend</label>
+      <label><input type="radio" name="field" value="Full-Stack">Full-Stack</label>
+      <label><input type="radio" name="field" value="Data-Science">Data-Science</label>
+      <label><input type="radio" name="field" value="Machine Learning">Machine Learning</label>
+      <!-- Additional things to learn  -->
+      <label>Courses I take after my Frontend Study:</label>
+    <label><input type="checkbox" name="" value="Data Analytics">Data Analytics</label>
+    <label><input type="checkbox" name="" value="Ethical Hacking">Ethical Hacking</label>
+    <label><input type="checkbox" name="" value="IT Support">IT Support</label>
+    <label><input type="checkbox" name="" value="Mobile Development">Mobile Development</label>
+    <label><input type="checkbox" name="" value="Cloud Development">Cloud Development</label>
+    <!-- Text area for comments and suggestions -->
+     <textarea cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+  </form>
+  <!-- Submit Button -->
+   <button type="submit" id="submit">Submit</button>
+</body>
+</html>
